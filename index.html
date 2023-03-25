@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Results summary component</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="left">
+      <h2>Your Result</h2>
+      <div class="score">
+        <h1 class="current-score">76</h1>
+        <p class="total-score">of 100</p>
+      </div>
+      <h1>Great</h1>
+      <p>You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
+    <div class="right">
+      <h2>Summary</h2>
+      <div class="flex reaction">
+        <div>
+          <img src="assets/images/icon-reaction.svg" alt="">
+          <p class="reaction-title">Reaction</p>
+        </div>
+        <p class="total-score"><span id="reaction"></span> / 100</p>
+      </div>
+      <div class="flex memory">
+        <div>
+          <img src="assets/images/icon-memory.svg" alt="">
+          <p class="memory-title">Memory</p>
+        </div>
+        <p class="total-score"><span id="memory"></span> / 100</p>
+      </div>
+      <div class="flex verbal">
+        <div>
+          <img src="assets/images/icon-verbal.svg" alt="">
+          <p class="verbal-title">Verbal</p>
+        </div>
+        <p class="total-score"><span id="verbal"></span> / 100</p>
+      </div>
+      <div class="flex visual">
+        <div>
+          <img src="assets/images/icon-visual.svg" alt="">
+          <p class="visual-title">Visual</p>
+        </div>
+        <p class="total-score"><span id="visual"></span> / 100</p>
+      </div>
+      <button class="btn">Continue</button>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
